@@ -19,7 +19,7 @@
     "test:headless": "ng test -c=headless",
     "test:headless:watch": "ng test -c=headless --watch",
     "lint": "ng lint",
-    "postinstall": "ngcc",
+    "postinstall": "ngcc --tsconfig='./config/ts/tsconfig.app.json'",
     "heroku-postbuild": "npm run build:prod"
   },
   "dependencies": {
@@ -35,10 +35,11 @@
     "@angular/platform-browser-dynamic": "~10.1.4",
     "@angular/router": "~10.1.4",
     "express": "^4.17.1",
+    "ionicons": "^4.6.3",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "typescript": "~4.0.2",
-    "zone.js": "~0.11.1"
+    "zone.js": "~0.10.3"
   },
   "devDependencies": {
     "@types/node": "^12.11.1",
