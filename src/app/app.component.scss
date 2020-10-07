@@ -1,0 +1,45 @@
+@use '../styles/base/colours';
+
+.landing-content {
+
+  padding: 4rem;
+  max-width: 600px;
+
+  @media (max-width: 600px) {
+    max-width: 100%;
+  }
+
+  & > img {
+    max-width: 100%;
+  }
+
+  & > p {
+    color: colours.get-colour(white);
+    font-weight: 300;
+    line-height: 2;
+    text-align: justify;
+    margin: 4rem 0;
+  }
+
+  & > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    & > li {
+
+      display: inline-block;
+      margin-right: 1.75rem;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      & > a {
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: colours.get-colour(white);
+      }
+    }
+  }
+}

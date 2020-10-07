@@ -1,6 +1,7 @@
 $colours: (
   white: #fff,
-  black: #000
+  black: #000,
+  dark_grey: #070707
 );
 
 @function get-colour($name) {
