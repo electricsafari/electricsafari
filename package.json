@@ -35,7 +35,7 @@
     "@angular/platform-browser-dynamic": "~10.1.4",
     "@angular/router": "~10.1.4",
     "express": "^4.17.1",
-    "ionicons": "^4.6.3",
+    "ionicons": "^6.0.3",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "typescript": "~4.0.2",
